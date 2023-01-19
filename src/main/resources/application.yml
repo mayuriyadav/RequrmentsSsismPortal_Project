@@ -1,0 +1,28 @@
+logging:
+    file: 
+      name: = aaplog.log
+    level:
+      com:
+        projectworkk: TRACE  
+      org:
+      springframework:
+        security: DEBUG
+      root: INFO
+    pattern:     
+        console: '%d[%level] %c{1.} [%t]%m%n'
+        file: '%d [%level] %c {1.} [%t] %m%n'
+server:
+  port: 1122
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/jobdatabase
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+    show-sql: true

@@ -1,0 +1,50 @@
+2023-01-17 11:57:40,975 [INFO] Com.RequrmentsProject.RequrmentsProjectApplication {1.} [restartedMain] Starting RequrmentsProjectApplication using Java 17.0.4.1 on MAYURI-YADAV with PID 11908 (C:\Users\mayan\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\RequrmentsSsismPortal_Project\target\classes started by mayan in C:\Users\mayan\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\RequrmentsSsismPortal_Project)
+2023-01-17 11:57:40,981 [INFO] Com.RequrmentsProject.RequrmentsProjectApplication {1.} [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 11:57:41,051 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor {1.} [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-17 11:57:41,051 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor {1.} [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-17 11:57:42,284 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {1.} [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-17 11:57:42,375 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {1.} [restartedMain] Finished Spring Data repository scanning in 78 ms. Found 11 JPA repository interfaces.
+2023-01-17 11:57:42,644 [INFO] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker {1.} [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6cfe8e95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-01-17 11:57:42,687 [INFO] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping {1.} [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-01-17 11:57:42,967 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {1.} [restartedMain] Tomcat initialized with port(s): 1122 (http)
+2023-01-17 11:57:42,983 [INFO] org.apache.catalina.core.StandardService {1.} [restartedMain] Starting service [Tomcat]
+2023-01-17 11:57:42,984 [INFO] org.apache.catalina.core.StandardEngine {1.} [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-17 11:57:43,051 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {1.} [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-17 11:57:43,051 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {1.} [restartedMain] Root WebApplicationContext: initialization completed in 1999 ms
+2023-01-17 11:57:43,421 [INFO] org.hibernate.jpa.internal.util.LogHelper {1.} [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-17 11:57:43,549 [INFO] org.hibernate.Version {1.} [restartedMain] HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-01-17 11:57:43,839 [INFO] org.hibernate.annotations.common.Version {1.} [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-17 11:57:44,012 [INFO] com.zaxxer.hikari.HikariDataSource {1.} [restartedMain] HikariPool-1 - Starting...
+2023-01-17 11:57:44,416 [INFO] com.zaxxer.hikari.HikariDataSource {1.} [restartedMain] HikariPool-1 - Start completed.
+2023-01-17 11:57:44,441 [INFO] org.hibernate.dialect.Dialect {1.} [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-01-17 11:57:44,615 [WARN] org.hibernate.id.UUIDHexGenerator {1.} [restartedMain] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2023-01-17 11:57:45,236 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {1.} [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-17 11:57:45,245 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {1.} [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-17 11:57:45,655 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {1.} [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-17 11:57:46,186 [INFO] org.springframework.security.web.DefaultSecurityFilterChain {1.} [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48293ca1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63f26c3c, org.springframework.security.web.context.SecurityContextPersistenceFilter@38514d5d, org.springframework.security.web.header.HeaderWriterFilter@55ac40db, org.springframework.security.web.authentication.logout.LogoutFilter@2613262b, Com.RequrmentsProject.security.JwtAuthenticationFilter@32ab9a83, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74268586, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ad4142b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@512dba85, org.springframework.security.web.session.SessionManagementFilter@6e4f7b04, org.springframework.security.web.access.ExceptionTranslationFilter@36716a26, org.springframework.security.web.access.intercept.AuthorizationFilter@6ff461c3]
+2023-01-17 11:57:46,533 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {1.} [restartedMain] LiveReload server is running on port 35729
+2023-01-17 11:57:46,569 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {1.} [restartedMain] Tomcat started on port(s): 1122 (http) with context path ''
+2023-01-17 11:57:46,577 [INFO] Com.RequrmentsProject.RequrmentsProjectApplication {1.} [restartedMain] Started RequrmentsProjectApplication in 6.102 seconds (JVM running for 7.045)
+2023-01-17 11:58:48,265 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {1.} [http-nio-1122-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 11:58:48,265 [INFO] org.springframework.web.servlet.DispatcherServlet {1.} [http-nio-1122-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-01-17 11:58:48,267 [INFO] org.springframework.web.servlet.DispatcherServlet {1.} [http-nio-1122-exec-2] Completed initialization in 2 ms
+2023-01-17 11:58:48,353 [INFO] Com.RequrmentsProject.Controller.CreatepostController {1.} [http-nio-1122-exec-2] createpostController,getAllPost() method started
+2023-01-17 11:58:48,354 [INFO] Com.RequrmentsProject.ServiceImpl.CreatepostServiceimpl {1.} [http-nio-1122-exec-2] PostServiceImpl, getAllPost() method started
+2023-01-17 11:58:48,380 [INFO] Com.RequrmentsProject.ServiceImpl.CreatepostServiceimpl {1.} [http-nio-1122-exec-2] CreatepostServiceImpl, getAllPost() method ended
+2023-01-17 11:58:48,381 [INFO] Com.RequrmentsProject.Controller.CreatepostController {1.} [http-nio-1122-exec-2] createpostController,getAllPost() method ended
+2023-01-17 12:17:30,391 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin {1.} [RMI TCP Connection(22)-127.0.0.1] Application shutdown requested.
+2023-01-17 12:17:30,416 [INFO] org.apache.catalina.core.StandardService {1.} [RMI TCP Connection(22)-127.0.0.1] Stopping service [Tomcat]
+2023-01-17 12:17:30,421 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {1.} [RMI TCP Connection(22)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-17 12:17:30,426 [WARN] org.apache.catalina.loader.WebappClassLoaderBase {1.} [RMI TCP Connection(22)-127.0.0.1] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-01-17 12:17:30,432 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {1.} [RMI TCP Connection(22)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-17 12:17:30,435 [INFO] com.zaxxer.hikari.HikariDataSource {1.} [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-01-17 12:17:30,442 [INFO] com.zaxxer.hikari.HikariDataSource {1.} [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown completed.
